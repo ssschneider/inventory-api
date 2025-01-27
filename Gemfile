@@ -54,6 +54,7 @@ group :development, :test do
 
   # Database
   gem "pg", "~> 1.1"
+
+  # CORS
+  gem "rack-cors"
 end
-
-
